@@ -1,2 +1,1 @@
-# alx-low_level_programming
-An introduction to C-programing project, 0x00. C - Hello, World
+The ALX low level Programming Repo: Programming Foundations

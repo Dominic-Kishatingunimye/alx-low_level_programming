@@ -3,7 +3,7 @@
 /**
  * main -> a program that prints the alphabet in lowercase,
  * without 'q' nor 'e' followed by a new line
- * can only use the putchar function 
+ * can only use the putchar
  * every other function (printf, puts, etc…) is forbidden
  * Return: always 0
  */

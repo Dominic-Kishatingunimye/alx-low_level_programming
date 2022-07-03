@@ -9,28 +9,27 @@
  */
 int main(void)
 {
-	int n;
-
+	int n, dig;
 
 
 	srand(time(0));
-
 	n = rand() - RAND_MAX / 2;
-        printf("last digit of %d is ", n);
-	if (n > 5) 
+
+	/* to FIND the last digit of a number 'n' */
+	dig = n % 10;
+        
+	if (dig == 0) 
 	{
-		printf("greater than 5");
-	}
-	if (n == 0) 
+		printf("Last digit of %d is %d and is 0", n, dig);
+	} else if (dig < 6 && dig != 0)
 	{
-		printf("0");
-	}
-	if (n < 6 && n != 0)
+		printf("Last digit of %d is %d and is less than 6 and not 0", n,dig);
+	} else 
 	{
-		printf("less than 6 and not 0");
+		printf("Last digit of %d is %d and is greater than 5", n, dig);
 	}
 	
 	printf("\n");
-		
+			
 	return (0);
 }

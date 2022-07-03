@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main -> a program to prints all single digit nums of base 10 
@@ -8,10 +8,12 @@
 int main(void)
 
 {
-	for (n = 0, n < 10, n++)
+	int n;
+	for (n = 0; n < 10; n++)
 	{
-		printf("%d\n", n);
+		printf("%d", n);
 	}
+	printf("\n");
 
 	return (0);
 }

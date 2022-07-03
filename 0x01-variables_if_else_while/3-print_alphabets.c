@@ -3,8 +3,7 @@
 /**
  * main -> a program that prints the alphabet in lowercase,
  * and then in upper case
- * followed by a new line
- * can only use the putchar function 
+ * followed by a new line. Use only putchar
  * every other function (printf, puts, etc…) is forbidden
  * Return: always 0
  */

@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main -> a program that prints all possible different combinations of three digits
+ * main -> a program that prints:
+ * all possible different combinations of three digits
  * Numbers must be separated by ,, followed by a space
  * Numbers should be printed in ascending order, with three digits
  * You can only use putchar six times maximum in your code
@@ -44,4 +45,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-				

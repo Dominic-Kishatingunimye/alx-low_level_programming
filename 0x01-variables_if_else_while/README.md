@@ -25,4 +25,18 @@ You can only use the putchar function (every other function (printf, puts, etc�
 5-print_numbers.c: Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line. All your code should be in the main function
 
 6-print_numberz.c: Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line. You are not allowed to use any variable of type 'char'. You can only use putchar twice in your code.
-\n 7-print_tebahpla.c: a program that prints the lowercase alphabet in reverse, followed by a new line. You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+
+7-print_tebahpla.c: a program that prints the lowercase alphabet in reverse, followed by a new line. You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+
+8-print_base16.c: a program that prints all the numbers of base 16 in lowercase, followed by a new line.
+You can only use the putchar function (every other function (printf, puts, etc…) is forbidden). You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+
+9-print_comb.c: Write a program that prints all possible combinations of single-digit numbers. Numbers must be separated by ,, followed by a space. Numbers must be separated by ,, followed by a space.
+Numbers must be separated by ,, followed by a space. You can only use putchar four times maximum in your code
+
+100-print_comb3.c: Write a program that prints all possible different combinations of two digits. Numbers must be separated by ,, followed by a space. The two digits must be different. 01 and 10 are considered the same combination of the two digits 0 and 1. Print only the smallest combination of two digits. Print only the smallest combination of two digits. Print only the smallest combination of two digits
+
+101-print_comb4.c:  a program that prints all possible different combinations of three digits. Numbers must be separated by ,, followed by a space. The three digits must be different.
+012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2. Print only the smallest combination of three digits. ou can only use putchar six times maximum in your code
+
+102-print_comb5.c:  a program that prints all possible combinations of two two-digit numbers. The numbers should range from 0 to 99. The two numbers should be separated by a space. The combinations of numbers should be printed in ascending order.All numbers should be printed with two digits. 1 should be printed as 01. 00 01 and 01 00 are considered as the same combination of the numbers 0 and 1. You can only use putchar eight times maximum in your code

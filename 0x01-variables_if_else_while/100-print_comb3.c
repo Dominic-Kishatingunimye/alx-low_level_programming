@@ -4,7 +4,7 @@
  * main -> a program to prints all possible different combo of two digits
  * Numbers must be separated by ,, followed by a space
  * The two digits must be different
- * 01 and 10 are considered the same combination of the two digits 0 and 1
+ * '01' and '10' are considered the same combination of the two digits 0 and 1
  * Numbers should be printed in ascending order, with two digit
  * You can only use putchar five times maximum in your code
  * Return: always 0

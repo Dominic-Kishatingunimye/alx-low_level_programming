@@ -6,12 +6,12 @@
  * You can only use the putchar function twice in your code
  * Return: always 0
  */
-int main (void)
+int main(void)
 
 {
 	int al;
 	{
-		for (al = 'z';al >= 'a'; al--)
+		for (al = 'z'; al >= 'a'; al--)
 			putchar(al);
 		putchar('\n');
 

@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -> Write a program that 
+ * main -> Write a program that
  * prints all possible combinations of single-digit numbers
- * Numbers must be separated by ,, followed by a space
+ * Numbers must be separated by ',' followed by a space
  * Numbers should be printed in ascending order
  * You are not allowed to use any variable of type char
  * Return: always 0

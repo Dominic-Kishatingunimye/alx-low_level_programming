@@ -25,6 +25,6 @@ int main(void)
 		}
 	}
 	add = add3 + add5;
-	printf("lu\n", add);
+	printf("%lu\n", add);
 	return (0);
 }

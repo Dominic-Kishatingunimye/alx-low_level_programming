@@ -26,5 +26,5 @@ int main(void)
 		j = k;
 		k = new;
 	}
-	return(0);
+	return (0);
 }

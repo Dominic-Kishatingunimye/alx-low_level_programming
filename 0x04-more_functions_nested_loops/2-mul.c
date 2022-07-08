@@ -6,7 +6,7 @@
  * @b: integer 2
  * Return: always success
  */
-int mul(int a,int b)
+int mul(int a, int b)
 {
 	return(a * b);
 }

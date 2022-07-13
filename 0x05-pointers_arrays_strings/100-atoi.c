@@ -23,7 +23,7 @@ int _atoi(char *s)
 	if (*temp != '\0')
 	{
 		do {
-			n = n * 10 + (temp - '0');
+			n = n * 10 + (*temp - '0');
 			temp++;
 		} while (*temp >= '0' && *temp <= '9');
 	}

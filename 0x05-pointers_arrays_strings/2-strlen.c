@@ -3,7 +3,7 @@
 /**
  * _strlen -> a function that returns the length of a string
  * @s: string length to be counted
- * Return: always 0
+ * Return: length of string
  */
 int _strlen(char *s)
 {
@@ -11,5 +11,5 @@ int _strlen(char *s)
 
 	for (len = 0; s[len] != '\0'; len++)
 		;
-	return (0);
+	return (len);
 }

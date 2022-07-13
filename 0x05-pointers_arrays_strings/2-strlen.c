@@ -4,14 +4,14 @@
 
 /**
  * _strlen -> a function that returns the length of a string
- * *s - pointer to parameter
+ * s: string length to be counted
  * Return: always 0
  */
 int _strlen(char *s)
 {
 	int len;
 
-	len = strlen(str);
+	len = strlen(*s);
 	printf(" %d\n", len);
 	return (0);
 }
